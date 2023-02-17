@@ -10,17 +10,29 @@
 <body>
        
                 <header>
-                  <div class="contsiner">
+                  <div class="container">
+                          <!-- <div id="app">
+
+                            <div class="text" >
+                              {{text}}
+                            </div>
+
+                          </div> -->
                          <div class="header_intelligrnce">
                                     <div class="header_intelligrnce__log">Freelancer</div>
                                     <nav class="header_intelligrnce__nav">
                                              <ul>
                                                      
-                                                      <li>About</li>
-                                                      <li>Work</li>
-                                                      <li>Portfolio</li>
-                                                      <li>Contact</li>
-                                                  
+                                                      <li class="header__navItem">About<span></span></li>
+                                                      <li class="header__navItem">Work</li>
+                                                      <li class="header__navItem">Portfolio</li>
+                                                      <li class="header__navItem">Contact</li>
+                                                      <li class="burger">
+                                                        <div class="burger__line"></div>
+                                                        <div class="burger__line"></div>
+                                                        <div class="burger__line"></div>
+                                                        <div class="burger__content"></div>
+                                                      </li>
                                                       <!-- About          Work          Portfolio          Contact -->
                                              </ul>
                                     </nav>
@@ -33,7 +45,7 @@
                            </div>
                     </div>  
                 </header>
-                <main class="main contsiner">
+                <main class="main container">
                          <div class="main_block">
                                     <h3>Peace<br> of Mind<span class="point">.</span></h3>
                                     <p>You’re safe with us.The privacy and
@@ -55,7 +67,7 @@
                                     to your bank account.</p>
                                     <button>More</button>
                          </div>
-                         <div class="main_block" id="scren">
+                         <!-- <div class="main_block" id="scren">
                                     
                          </div>
                          <div class="main_block" id="portfolio">
@@ -66,9 +78,9 @@
                            <p>The same debit card you use to buy coffee lets deposit money straight
                               to your bank account.</p>
                            <button>More</button>
-                         </div>
+                         </div> -->
                 </main>
-                <div class="contsiner main_div">
+                  <div class="container main_div">
                          <h4>Our team</h4><br>
                          <p>They are big but still friendly.</p><br>
                          <div class="flex">
@@ -104,8 +116,8 @@
                           <button id="button_footer">More</button>
                          </div>
                          
-                </div>
-                <footer class="contsiner">
+                </div> 
+                <footer class="container">
                          <div >
                                   <ul class="footer_flex">
                                            <li>
@@ -131,7 +143,9 @@
                                   </ul>
                            </div>
                          <div class="footer_text">© Freelancer - Designed by Wojtek Kwiatkowski</div>
-                </footer>
+                </footer> 
+                <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+                <script src="./js/js.js"></script>
        
 </body>
 </html>
